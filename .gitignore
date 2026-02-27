@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build outputs
+dist
+.next
+out
+build
+
+# Environment
+.env.local
+.env.*.local
+.env.keys
+
+# IDE
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Turbo
+.turbo
+
+# Logs
+*.log
