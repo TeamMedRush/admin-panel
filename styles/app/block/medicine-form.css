@@ -1,0 +1,40 @@
+.medicine-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-height: 100vh;
+}
+
+.medicine-form-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.medicine-form-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.medicine-form-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.medicine-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.medicine-form-label {
+  font-weight: 600;
+  color: var(--color-focus);
+}
+
+.medicine-form-preview {
+
+}
+
